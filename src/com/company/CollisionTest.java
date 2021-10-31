@@ -31,7 +31,6 @@ public class CollisionTest {
         double t1 = -((square + b) * fractionA2);
         double t2 = ((square - b) * fractionA2);
 
-        System.out.println(Math.min(t1, t2));
         if (t1 < 0 || t2 < 0) {
             // Either one or both in past.
             // Return time closer to the current time.
